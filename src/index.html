@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cifrado Cesar</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class = "caja" id="caja1">
+        <h1>Secreto Recóndito </h1>
+    </div>
+    <section>
+      <div></div>
+      <div class = "caja" id="caja2">  
+        <form>
+            <input type="text" id="str" placeholder="Cifrar"><br><br>
+
+            <input type="number" value="0" min="0" id="offset"><br><br>
+
+            <input type="text" id="decod" placeholder="Descifrar"><br><br>
+
+            <input type="button" value="Codificar" onclick="encode1()" class="btn btn-success">
+
+            <input type="button" value="Decodificar" onclick="decode1()" class="btn btn-danger">
+
+            <input type="button" value="Borrar" onclick="borrar()" class="btn btn-primary">
+        </form>
+      </div>
+      <div></div>
+  </section>
+    <script type="text/javascript" src="index.js">
+    </script>
+    <script type="text/javascript" src="cipher.js">
+    </script>
+  </body>
+</html>
