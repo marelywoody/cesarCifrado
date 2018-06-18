@@ -1,7 +1,7 @@
 body {
     background-color: #fcb77e;
     font-family: Lucida Sans Unicode;
-    font-style: oblique;
+    font-style: italic;
     color: #d0575e;
     font-size: large;
 }
@@ -15,6 +15,7 @@ body {
 }
 #caja2{
     background-color: rgb(228,136,113,.5);
+    height: 25em;
 }
 #caja{
     background-color: rgb(220,20,60,.3);
