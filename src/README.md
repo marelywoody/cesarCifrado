@@ -1,8 +1,8 @@
-#CIFRADO CESAR
->1.El producto se tenia que pensar de forma facil de utilizar para aquellas peronas que lo necesitaran. 
->2.El siguiente paso fue comprender como era el funcionamiento de la formula del cifrado.
->3.Cuando pude comprender el funcionamiento del cifrado era el momento de pasar esa formula a codigo. 
->4.En primera construccion del codigo fue planeado para que solo descifrara un solo tipo de letra mayusculas, pero esto complicaria un poco el uso del prodcuto por parte del usuario ya que para comodidad de ellos, seria mas facil que fuera usable tanto para mayusculas y minusculas.
->5.Una vez que se planteo la solucion para el problema de mayusculas y minusculas surgio una nueva observacion los signos especiales estos tambien son usados muy seguidos por los usuarios asi que tambien se implemento la forma de que pudieran usarlos sin verse afectos estos caracteres.
->6.Cuando el codigo corrio sin ningun error despues de muchos intentos y podia cifrar y descifrar corractamento se tenia que hacer que la interfaz de este fuera de facil comprencion para el usuario y no tueviera que estar batallando en saber como se usa el producto.
->7.Asi que la interfaz tiene un color suave que en la psicologia del color es alegre, ademas se agrago una pequeña explicacion de para que servia cada input. y para no dejarlo tan simple se añadieron unas imagenes referente a lo que el producto hace.
+# CIFRADO CESAR
+> 1.El producto se tenia que pensar de forma facil de utilizar para aquellas peronas que lo necesitaran. 
+> 2.El siguiente paso fue comprender como era el funcionamiento de la formula del cifrado.
+> 3.Cuando pude comprender el funcionamiento del cifrado era el momento de pasar esa formula a codigo. 
+> 4.En primera construccion del codigo fue planeado para que solo descifrara un solo tipo de letra mayusculas, pero esto complicaria un poco el uso del prodcuto por parte del usuario ya que para comodidad de ellos, seria mas facil que fuera usable tanto para mayusculas y minusculas.
+> 5.Una vez que se planteo la solucion para el problema de mayusculas y minusculas surgio una nueva observacion los signos especiales estos tambien son usados muy seguidos por los usuarios asi que tambien se implemento la forma de que pudieran usarlos sin verse afectos estos caracteres.
+> 6.Cuando el codigo corrio sin ningun error despues de muchos intentos y podia cifrar y descifrar corractamento se tenia que hacer que la interfaz de este fuera de facil comprencion para el usuario y no tueviera que estar batallando en saber como se usa el producto.
+> 7.Asi que la interfaz tiene un color suave que en la psicologia del color es alegre, ademas se agrago una pequeña explicacion de para que servia cada input. y para no dejarlo tan simple se añadieron unas imagenes referente a lo que el producto hace.
