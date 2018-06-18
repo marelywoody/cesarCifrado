@@ -10,19 +10,22 @@ body {
     width: auto;
     margin: 5em 5em;
 }
-
-#caja, #caja2{
+#row1{
+    width: 30em;
+}
+#caja2{
     background-color: rgb(228,136,113,.5);
 }
 #caja{
+    background-color: rgb(220,20,60,.3);
     top: 2em;
-    left: 27em;
-    width: 30em;
-    height: 6em;
-    color: #b6848ff1;
+    left: 28em;
+    height: 5.5em;
+    color: #ad707de1;
     font-family: cursive;
     font-style: oblique;
     text-align: center;
+    font-size: large;
 }
 
 .btn-group{
