@@ -48,12 +48,12 @@ header{
     height: 30em;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1030px) {
   #container-textarea {
     top:2em;
   }
 
   #container-opacity {
-    height: 26em;
+    height: 30.5em;
   }
 }
