@@ -8,7 +8,7 @@ body {
 
 #container-opacity {
   background: rgba(76, 175, 80, 0.3);
-  height: 30em;
+  height: 23em;
   padding-top: 3em;
   top: 4em;
 }
@@ -36,16 +36,24 @@ header{
   bottom: 1em; 
 }
 
-@media screen and (max-width: 576px) {
-  #container-opacity {
-    left: 3em;
+@media screen and (max-width:575px) {  
+  #container-header {
+    width: auto;
   }
   #container-textarea {
     top:2em;
+  }
+
+  #container-opacity {
+    height: 30em;
   }
 }
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 800px) {
   #container-textarea {
     top:2em;
+  }
+
+  #container-opacity {
+    height: 30em;
   }
 }
