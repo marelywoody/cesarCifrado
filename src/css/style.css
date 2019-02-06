@@ -37,9 +37,6 @@ header{
 }
 
 @media screen and (max-width: 576px) {
-  #container-opacity {
-    left: 3em;
-  }
   #container-textarea {
     top:2em;
   }
