@@ -1,62 +1,47 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Cifrado Cesar</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="row" id="row1">
-      <div id="caja" class="col-8">
-          <h1>Secreto <br> Recóndito </h1>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Cifrado</title>
+</head>
+<body>
+  <div class="container" id="container-header">
+    <div class="row">
+      <div class="col">
+        <header> Secreto Recóndito </header>
       </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <section id="subPrincipal">
-      <div class="row">
-        <div class="col-4">
-            <span>
-                <strong>-Código-</strong>
-                <ul>
-                 <li>Es el número de letras que se deseas desplazar al momento de hacer el cifrado</li>
-                 <li>Debe ser ingresado en número</li>
-                </ul>
-              </span>
-          <img src="./imagenes/secret.png" alt="secret1" class="img-fluid" id="img">
-        </div>
-        <div class = "col-4" id="caja2">  
-          <form>
-            <br>
-              Palabra a cifrar<input type="text" id="str" placeholder="Cifrar" class="form-control"><br><br>
-
-              Código<input type="number" value="0" min="0" id="offset" class="form-control"><br><br>
-
-              Palabra a descifrar<input type="text" id="decod" placeholder="Descifrar" class="form-control"><br><br>
-            <div class="btn-group">  
-              <input type="button" value="Codificar" onclick="encode1()" class="btn btn-success">
-
-              <input type="button" value="Decodificar" onclick="decode1()" class="btn btn-danger">
-
-              <input type="button" value="Borrar" onclick="borrar()" class="btn btn-primary">
-            </div>
-          </form>
-        </div>
-        <div class="col-4">
-            <span><strong>-Cifrar y Descifrar-</strong>
-              <ul>
-                <li><strong>Cifrar</strong> Ingresa las palabras que quieras cifrar para que nadie se entere de tus secretos</li>
-                <li><strong>Descifra</strong> Descifra tus secretos. Ingresa tus palabras cifradas para descubrir sus secretos</li>
-              </ul>
-            </span>
-          <img src="./imagenes/secret3.jpg" alt="secret2" class="img-fluid" id="img2"></div>
+  </div>
+  <div class="container" id="container-opacity">
+    <div class="row justify-content-between">
+      <div class="col-sm-12 col-lg-6 col-md-6 align-self-center">
+        <form>
+          <input type="number" id="offset" min="0" class="form-control" placeholder="Ingrese un número">
+          <input type="text" id="word" size="10" class="form-control" placeholder="Palabra a cifrar o descifrar">
+          <div class="btn-group btn-group-toggle d-flex justify-content-around">
+            <input type="button" value="Cifrar" id="encod">
+            <input type="button" value="Descifrar" id="decod">
+          </div>
+        </form>
       </div>
-    </section>
-    <script type="text/javascript" src="index.js">
-    </script>
-    <script type="text/javascript" src="cipher.js">
-    </script>
-  </body>
-</html>
+      <div class="col.sm-12 col-lg-6 col-md-6 align-self-center" id="container-textarea">
+        <form>
+          <textarea id="encodDecod" class="form-control" cols="50" rows="10" disabled></textarea>
+          <div class="d-flex justify-content-center">
+            <input type="button" value="Limpiar" id="delete">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+  <script src="js/cipher.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
