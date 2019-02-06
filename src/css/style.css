@@ -36,6 +36,21 @@ header{
   bottom: 1em; 
 }
 
+#encod {
+  background-color: rgba(81, 57, 216, 0.8);
+  color: rgb(241, 246, 248);
+}
+
+#decod {
+  background-color: rgba(37, 68, 50, 0.8);
+  color: rgb(241, 246, 248);
+}
+
+#delete {
+  background-color: rgba(163, 68, 241, 0.8);
+  color: rgb(241, 246, 248);
+}
+
 @media screen and (max-width: 991px) {
   #container-textarea {
     top:2em;
