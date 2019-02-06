@@ -52,4 +52,8 @@ header{
   #container-textarea {
     top:2em;
   }
+
+  #container-opacity {
+    height: 26em;
+  }
 }
