@@ -63,7 +63,7 @@ header{
 
 @media screen and (max-width: 760px) {
   #container-opacity {
-    height: 30em;
+    height: 31em;
   }
 }
 
@@ -76,6 +76,6 @@ header{
   }
 
   #container-opacity {
-    height: 30em;
+    height: 31em;
   }
 }
