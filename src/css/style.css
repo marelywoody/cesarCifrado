@@ -36,7 +36,7 @@ header{
   bottom: 1em; 
 }
 
-@media screen and (max-width:991px) {
+@media screen and (max-width: 991px) {
   #container-textarea {
     top:2em;
   }
@@ -46,7 +46,13 @@ header{
   }
 }
 
-@media screen and (max-width:575px) {  
+@media screen and (max-width: 760px) {
+  #container-opacity {
+    height: 30em;
+  }
+}
+
+@media screen and (max-width: 575px) {  
   #container-header {
     width: auto;
   }
